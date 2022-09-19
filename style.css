@@ -1,0 +1,101 @@
+* {
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    height: 100vh;
+    background: rgb(5, 2, 97);
+}
+
+.main {
+    position: absolute;
+    margin: 12rem 25%;
+    /* top: 50%;
+    left: 50%; */
+    background: white;
+    width: 50%;
+    min-width: 400px;
+    min-height: 100px;
+    border-radius: 10px;
+    /* transform: translate(-50%,-50%); */
+}
+
+#add-task {
+    position:relative;
+    padding: 30px 20px;
+   
+}
+
+#add-task input {
+    position: relative;
+    width: 75%;
+    height: 2rem;
+    font-size: 1rem;
+    border: 2px solid rgb(5, 2, 97);
+    border-radius: 5px;
+    font-weight: 500;
+    color: #111111;
+}
+
+#add-task input:focus {
+    outline: none;
+    border-color: rgb(41, 34, 232);
+}
+
+#add-task button {
+    position: relative;
+    float: right;
+    width: 20%;
+    height:2rem;
+    border-radius: 5px;
+    background: rgb(5, 2, 97);
+    color: aliceblue;
+    font-size: 1rem;
+    font-weight: 500;
+}
+
+#add-task button:hover {
+    cursor: pointer;
+    color: bisque;
+    box-shadow: 0 0.15rem 0.3rem rgb(5, 2, 97);
+    transform: translateY(-0.15rem);
+}
+
+#tasks {
+    position: relative;
+    width: 100%;
+    background-color: #ffffff;
+    padding: 30px 20px;
+    margin-top: 1rem;
+    border-radius: 5px;
+}
+.task {
+    background-color:rgb(152, 174, 236);
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 0.75rem;
+    border-radius: 5px;
+    padding: 5px 10px;
+    border: 1px solid rrgb(5, 2, 97);
+    cursor: pointer;
+}
+
+.task span {
+    font-size: 1.4rem;
+    font-weight: 400;
+}
+
+.task button {
+    background: rgb(5, 2, 97);
+    color: #f5ebeb;
+    height: 100%;
+    width: 1.2rem;
+    padding: 0.1rem 0.1rem;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 1rem;
+    font-weight: 500;
+}
